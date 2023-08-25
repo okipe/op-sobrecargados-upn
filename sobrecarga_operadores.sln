@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-SobrecargaOperadores", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-SobrecargaOperadoresUnarios", "sobrecarga-operadores-unarios\02-SobrecargaOperadoresUnarios.csproj", "{21833D99-5439-4644-97F9-C7193A84F403}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-Caso1Mio", "caso_1-mio\04-Caso1Mio.csproj", "{FF9B04BA-C144-4CF7-863E-836F8F89D16B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-Caso1Mio", "caso_1-mio\04-Caso1Mio.csproj", "{FF9B04BA-C144-4CF7-863E-836F8F89D16B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-SobrecargaOperadoresBinarios", "03-sobrecarga-operadores-binarios\03-SobrecargaOperadoresBinarios.csproj", "{E407D9AC-4852-4AFB-9349-1677CD47F7FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-SobrecargaOperadoresBinarios", "03-sobrecarga-operadores-binarios\03-SobrecargaOperadoresBinarios.csproj", "{E407D9AC-4852-4AFB-9349-1677CD47F7FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-solucion-inter-1", "05-solucion-inter-1\05-solucion-inter-1\05-solucion-inter-1.csproj", "{CBC96C8E-B62B-489D-91B1-D55CBB37E7F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E407D9AC-4852-4AFB-9349-1677CD47F7FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E407D9AC-4852-4AFB-9349-1677CD47F7FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E407D9AC-4852-4AFB-9349-1677CD47F7FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBC96C8E-B62B-489D-91B1-D55CBB37E7F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC96C8E-B62B-489D-91B1-D55CBB37E7F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC96C8E-B62B-489D-91B1-D55CBB37E7F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC96C8E-B62B-489D-91B1-D55CBB37E7F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

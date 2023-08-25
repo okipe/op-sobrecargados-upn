@@ -4,11 +4,43 @@ Diseña un programa en C# que aplique la sobrecarga de operadores creando una cl
 
 namespace Caso1Mio
 {
-    internal class Program
+    public class Fraccion
     {
-        static void Main(string[] args)
-        {
+        public int Numerador { get; set; }
+        public int Denominador { get; set; }
 
+        // Sobrecarga de binarios suma para fracción
+        public static Fraccion operator +(Fraccion f1, Fraccion f2)
+        {
+            return new Fraccion
+            {
+                Numerador = f1.Numerador * f2.Denominador + f2.Numerador * f1.Denominador,
+                Denominador = f1.Denominador * f2.Denominador
+            };
         }
+
+        // Sobrecarga de binarios resta para fracción
+
+        public static Fraccion operator -(Fraccion f1, Fraccion f2)
+        {
+            return new Fraccion
+            {
+                Numerador = f1.Numerador * f2.Denominador - f2.Numerador * f1.Denominador,
+                Denominador = f1.Denominador * f2.Denominador
+            };
+        }
+
+        /*class SobrecargaOperadoresUno
+        {
+            static void Main(string[] args)
+            {
+                Fraccion f1 = new Fraccion
+                {
+                    Console.WriteLine = "Ingrese numerador";
+                    Numerador = Console.ReadLine()
+                }
+            }
+        }*/
+
     }
 }
